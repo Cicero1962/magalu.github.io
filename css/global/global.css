@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #F4F4F4;
+}
+a{
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.logoteste {
+    width: 150px;
+    color: red;
+}

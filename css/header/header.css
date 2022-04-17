@@ -1,0 +1,103 @@
+body {
+  width: 100%;
+}
+
+.container-principal{
+  background-color: #0086FF;
+  width: 100%;
+}
+.logo{
+  margin: 0 auto;
+  max-width: 930px;
+  margin-bottom: 10px;
+}
+.header-container{
+  widows: 100%;
+  max-width: 1348px;
+  display: grid;
+  margin: 0 auto;
+  
+}
+
+.header-imagens img{
+  width: 32px;
+}
+.header-imagens{
+  display: flex;
+  gap: 50px;
+}
+.header-informacoes{
+  display: flex;
+  gap: 140px;
+  place-content: end;
+  margin-bottom: 20px;
+  color: white;
+}
+.informacao{
+  display: flex;
+  gap: 20px;
+}
+.header-busca{
+  display: flex;
+  gap:16px ;
+}
+.header-produtos{
+  display: flex;;
+  place-content: end;
+  gap: 35px;
+  margin-bottom: 20px;
+}
+.produtos{
+  display: flex;
+  gap: 10px;
+}
+.header-departamentos{
+  display: flex;
+  position: relative;
+  padding-left: 70px;
+  margin-bottom: 10px;
+}
+
+.logo-lu{
+  position: absolute;
+  top: -70px;
+  left: -5px;
+  width: 70px;
+}
+.departamentos{
+  display: flex;
+  gap: 8px;
+  
+}
+.borda{
+  float: left;
+    height: 5px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border: none;
+    background-image: linear-gradient(to right, rgb(255, 255, 74) 0px, rgb(252, 208, 0) 4%, rgb(255, 193, 18) 8%, rgb(255, 193, 18) 11%, rgb(255, 138, 0) 16%, rgb(255, 95, 95) 22%, rgb(255, 37, 58) 28%, rgb(255, 55, 168) 37%, rgb(199, 57, 255) 49%, rgb(164, 0, 225) 56%, rgb(46, 206, 255) 72%, rgb(0, 134, 255) 80%, rgb(114, 247, 114) 94%, rgb(0, 214, 4));
+}
+
+
+form {
+  width: 600px;
+  display: flex;
+  height: 28px;
+  flex-direction: row;
+}
+
+form input {
+  flex: 1;
+  border: none;
+  
+}
+
+form button {
+  width: 50px;
+  border: none;
+  background-color: #ffffff;
+}
+p{
+  color: #ffffff;
+}

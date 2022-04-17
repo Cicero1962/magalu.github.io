@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 24 24"
+   width="512"
+   height="512"
+   version="1.1"
+   id="svg12034"
+   sodipodi:docname="coracao1.svg"
+   inkscape:version="1.2-beta (1b65182ce9, 2022-04-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12038" />
+  <sodipodi:namedview
+     id="namedview12036"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.5332031"
+     inkscape:cx="255.67389"
+     inkscape:cy="256"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12034" />
+  <path
+     d="M 17.5,0.917 A 6.4,6.4 0 0 0 12,4.217 6.4,6.4 0 0 0 6.5,0.917 6.8,6.8 0 0 0 0,7.967 c 0,6.775 10.956,14.6 11.422,14.932 L 12,23.308 12.578,22.899 C 13.044,22.569 24,14.742 24,7.967 A 6.8,6.8 0 0 0 17.5,0.917 Z M 12,20.846 C 8.747,18.416 2,12.446 2,7.967 a 4.8,4.8 0 0 1 4.5,-5.05 4.8,4.8 0 0 1 4.5,5.05 h 2 a 4.8,4.8 0 0 1 4.5,-5.05 4.8,4.8 0 0 1 4.5,5.05 c 0,4.481 -6.747,10.449 -10,12.879 z"
+     id="path12031"
+     style="fill:#ffffff" />
+</svg>
