@@ -20,17 +20,14 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Niramit:wght@600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <main class="container-principal">
-      <div class="logo">
-        <img src="./img/logo1.webp" alt="" />
-      </div>
-      <header class="header-container">
+    <header class="header">
+      <div class="header-container">
+        <div class="logo">
+          <img src="./img/logo1.webp" alt="" />
+        </div>
         <div class="header-menu">
           <div class="header-informacoes">
             <ul class="informacao">
@@ -42,13 +39,18 @@
             </ul>
             <ul class="informacao">
               <li>Atendimento</li>
-              <li>Compre pelo tel:0800 773 3838</li>
+              <li>Compre pelo tel: 0800 773 3838</li>
               <li>Meus pedidos</li>
             </ul>
           </div>
           <div class="header-produtos">
             <div class="produtos">
-              <svg viewBox="0 0 60 13" id="logo" fill="#ffffff" class="logoteste">
+              <svg
+                viewBox="0 0 60 13"
+                id="logo"
+                fill="#ffffff"
+                class="logo-magalu"
+              >
                 <path
                   d="M59.379 0.210938H58.0197C57.633 0.210938 57.3987 0.445293 57.3987 0.83198V4.85118C57.3987 6.32762 56.6018 7.15959 55.4945 7.15959C54.3286 7.15959 53.6724 6.40379 53.6724 4.94492V0.83198C53.6724 0.445293 53.438 0.210938 53.0514 0.210938H51.6921C51.3054 0.210938 51.071 0.445293 51.071 0.83198V5.13827C51.071 7.87437 52.4889 9.42698 54.6215 9.42698C55.9046 9.42698 56.8889 8.99928 57.592 8.1263L57.7092 8.67118C57.7853 9.02271 58.0197 9.21606 58.3888 9.21606H59.379C59.7656 9.21606 60 8.9817 60 8.59501V0.83198C60 0.445293 59.7715 0.210938 59.379 0.210938Z"
                   fill="currentColor"
@@ -74,50 +76,61 @@
                   fill="currentColor"
                 ></path>
               </svg>
-                <div class="header-busca">
-                  <form  action="">
-                    <input type="text" name="busca" />
-                    <button type="submit"></button>
-                  </form>
-                    <div>
-                      <p>Bem vindo:)</p>
-                      <a href="">Entre e cadastre-se</a>
-                    </div>
-                </div>
-            </div>
-              <div class="header-imagens">
-               <div>
-                 <a href=""><img src="./img/marcador1.svg" alt="">Ver ofertas para minha </a>
-              </div>
-                  <a href=""><img src="./img/coracao1.svg" alt="" /></a>
-                  <a href=""><img src="./img/piquenique1.svg" alt="" /></a>
+              <div class="header-busca">
+                <form action="">
+                  <input type="text" name="busca" placeholder="Procure por código,nome,marca..." />
+                  <button type="submit"><img class="botao-busca" src="./img/procurar4.svg" alt=""></button>
+                </form>
+                <p class="bemvindo">
+                  Bem vindo:) <br/>
+                  <a href="">Entre e cadastre-se</a>
+                </p>
               </div>
             </div>
-            <div class="header-departamentos">
-              <img class="logo-lu" src="./img/logo-lu.webp" alt="">
-              <ul class="departamentos">
-                <li><a href=""><img src="./img/reorder_white_18dp.svg" alt=""></a></li>
-                <li><a href="">Todos departamentos</a></li>
-                <li><img src="./img/expand_more_white_24dp.svg" alt=""></li>
-                <li><a href="">Ofertas do dia</a></li>
-                <li><a href="">Celulares</a></li>
-                <li><a href="">Moveis</a></li>
-                <li><a href="">Móveis</a></li>
-                <li><a href="">Eletrodomésticos</a></li>
-                <li><a href="">Tv e Video</a></li>
-                <li><a href="">Informática</a></li>
-                <li><a href="">Saldão</a></li>
-                <li><a href="">Baixe o SuperApp</a></li>
-                <li><a href=""><img src="./img/credit_card_white_18dp.svg" alt=""> </a></li>
-                <li><a href="">Cartão Magalu</a></li>
-              </ul>
+            <div class="header-imagens">
+              <a class="ofertas" href=""
+                ><img src="./img/room_white_24dp.svg" alt="" />
+                <p>
+                  Ver ofertas para minha <br />
+                  região
+                </p></a
+              >
+              <a class="botao" href=""><img src="./img/coracao1.svg" alt="" /></a>
+              <a class="botao" href=""><img src="./img/piquenique1.svg" alt="" /></a>
             </div>
-            <div class="borda"></div>
-            </div>
-      </header>
-      <section>
-        <img src="" alt="">
-      </section>
+          </div>
+          <div class="header-departamentos">
+            <img class="logo-lu" src="./img/logo-lu.webp" alt="" />
+            <ul class="departamentos">
+              <li>
+                <a href="">
+                  <img src="./img/reorder_white_18dp.svg" alt="" />
+                  Todos departamentos
+                  <img src="./img/expand_more_white_24dp.svg" alt="" />
+                </a>
+              </li>
+              <li><a href="">Ofertas do dia</a></li>
+              <li><a href="">Celulares</a></li>
+              <li><a href="">Moveis</a></li>
+              <li><a href="">Eletrodomésticos</a></li>
+              <li><a href="">Tv e Video</a></li>
+              <li><a href="">Informática</a></li>
+              <li><a href="">Saldão</a></li>
+              <li><a href="">Baixe o SuperApp</a></li>
+              <li>
+                <a href="">
+                  <img src="./img/credit_card_white_18dp.svg" alt="" />
+                  Cartão Magalu
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+          <div class="borda"></div>
+        </div>
+      </div>
+    </header>
+    <main class="container-principal">
     </main>
   </body>
 </html>

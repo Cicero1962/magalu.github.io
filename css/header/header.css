@@ -1,11 +1,8 @@
-body {
+.header {
   width: 100%;
+  background-color: #0086FF;
 }
 
-.container-principal{
-  background-color: #0086FF;
-  width: 100%;
-}
 .logo{
   margin: 0 auto;
   max-width: 930px;
@@ -16,19 +13,34 @@ body {
   max-width: 1348px;
   display: grid;
   margin: 0 auto;
-  
+  position: relative;
 }
 
 .header-imagens img{
   width: 32px;
 }
+
 .header-imagens{
   display: flex;
-  gap: 50px;
 }
+
+.header-imagens .ofertas {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header-imagens .botao {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header-informacoes{
   display: flex;
-  gap: 140px;
+  gap: 160px;
   place-content: end;
   margin-bottom: 20px;
   color: white;
@@ -37,38 +49,71 @@ body {
   display: flex;
   gap: 20px;
 }
+
+.informacao li {
+  color: rgb(204, 230, 244);
+  font-size: 14px;
+  font-weight: 500;
+}
+
 .header-busca{
   display: flex;
   gap:16px ;
+  align-items: center;
 }
 .header-produtos{
   display: flex;;
   place-content: end;
-  gap: 35px;
+  gap: 40px;
   margin-bottom: 20px;
 }
 .produtos{
   display: flex;
-  gap: 10px;
+  gap: 20px;
+  align-items: center;
 }
 .header-departamentos{
   display: flex;
-  position: relative;
-  padding-left: 70px;
-  margin-bottom: 10px;
+  padding-left: 80px;
+  margin-bottom: 4px;
+}
+.botao-busca{
+  width: 16px;
 }
 
 .logo-lu{
   position: absolute;
-  top: -70px;
-  left: -5px;
-  width: 70px;
+  bottom: 9px;
+  left: 0;
+  width: 81px;
 }
 .departamentos{
   display: flex;
   gap: 8px;
-  
 }
+
+.departamentos li {
+  height: 45px;
+  display: flex;
+}
+
+.departamentos li a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #FFF;
+  padding: 0 10px;
+  box-sizing: border-box;
+  gap: 10px;
+}
+
+.departamentos li a > img {
+  width: 24px;
+}
+
 .borda{
   float: left;
     height: 5px;
@@ -79,25 +124,47 @@ body {
     background-image: linear-gradient(to right, rgb(255, 255, 74) 0px, rgb(252, 208, 0) 4%, rgb(255, 193, 18) 8%, rgb(255, 193, 18) 11%, rgb(255, 138, 0) 16%, rgb(255, 95, 95) 22%, rgb(255, 37, 58) 28%, rgb(255, 55, 168) 37%, rgb(199, 57, 255) 49%, rgb(164, 0, 225) 56%, rgb(46, 206, 255) 72%, rgb(0, 134, 255) 80%, rgb(114, 247, 114) 94%, rgb(0, 214, 4));
 }
 
+.logo-magalu {
+  width: 124px;
+  color: #ffffff;
+  padding-top: 6px;
+  
+}
 
 form {
-  width: 600px;
+  width: 587px;
   display: flex;
   height: 28px;
   flex-direction: row;
+  border: none;
 }
 
 form input {
   flex: 1;
-  border: none;
-  
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  font-size: 14px;
+  padding-left: 5px;
 }
 
 form button {
-  width: 50px;
+  width: 40px;
   border: none;
   background-color: #ffffff;
+  cursor: pointer;
 }
 p{
   color: #ffffff;
+}
+
+.bemvindo {
+  color: #FFF;
+  font-weight: 500;
+  width: 150px;
+}
+
+.bemvindo a {
+  color: #FFF;
+  font-weight: 400;
 }
